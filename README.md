@@ -11,7 +11,7 @@ Welcome to the Java Interview Questions repository! This collection provides a s
 - [Algorithms](#algorithms)
 - [JEE](#jee)
 - [Spring](#spring)
-- [SpringBoot](#springboot)
+- [Spring Boot](#springboot)
 
 # General Questions
 
