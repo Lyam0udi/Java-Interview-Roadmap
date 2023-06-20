@@ -192,4 +192,36 @@ Welcome to the Java Interview Questions repository! This collection provides a s
 10. **What is the difference between time complexity and space complexity?**
     - Time complexity measures the amount of time an algorithm takes to run, while space complexity measures the amount of memory space an algorithm requires. Both time complexity and space complexity are important factors in analyzing the efficiency and performance of algorithms.
 
+# JEE
+
+1. **What is Java Enterprise Edition (JEE)?**
+   - Java Enterprise Edition (JEE) is a platform for developing and running enterprise-scale applications. It provides a set of specifications, APIs, and services that enable developers to build robust, scalable, and secure Java-based applications.
+
+2. **What are the key components of JEE?**
+   - The key components of JEE include Java Servlets, JavaServer Pages (JSP), Enterprise JavaBeans (EJB), Java Persistence API (JPA), Java Messaging Service (JMS), Java Transaction API (JTA), and Java Naming and Directory Interface (JNDI).
+
+3. **Explain the role of Java Servlets in JEE.**
+   - Java Servlets are server-side components that handle client requests and generate dynamic web content. They provide a way to extend the functionality of a web server and enable the development of web applications using Java.
+
+4. **What is the difference between JSP and Servlets?**
+   - JavaServer Pages (JSP) is a technology that allows the creation of dynamic web pages by combining HTML and Java code. Servlets, on the other hand, are Java classes that handle requests and generate responses. Servlets and JSPs are often used together to develop web applications.
+
+5. **What is the Java Persistence API (JPA)?**
+   - The Java Persistence API (JPA) is a specification that provides an object-relational mapping (ORM) framework for mapping Java objects to relational databases. It simplifies database access and provides a consistent approach to working with persistence in JEE applications.
+
+6. **What are Enterprise JavaBeans (EJB)?**
+   - Enterprise JavaBeans (EJB) are server-side components that encapsulate business logic in a distributed, transactional, and scalable manner. EJBs provide services such as transaction management, security, and concurrency control in JEE applications.
+
+7. **Explain the role of Java Messaging Service (JMS) in JEE.**
+   - Java Messaging Service (JMS) is an API that enables asynchronous messaging between distributed components in a JEE application. It provides a reliable and loosely coupled mechanism for exchanging messages between producers and consumers.
+
+8. **What is the Java Transaction API (JTA)?**
+   - The Java Transaction API (JTA) is a specification that provides a standard way to manage distributed transactions in JEE applications. It allows multiple resources, such as databases and message queues, to participate in a single transaction with atomicity, consistency, isolation, and durability (ACID) properties.
+
+9. **What is the role of Java Naming and Directory Interface (JNDI) in JEE?**
+   - Java Naming and Directory Interface (JNDI) provides a unified interface to access naming and directory services in a JEE environment. It allows applications to look up and access resources such as databases, EJBs, and JMS destinations by their logical names.
+
+10. **What are the differences between JEE and Java Standard Edition (Java SE)?**
+    - Java Standard Edition (Java SE) provides the core Java platform, which includes the Java Development Kit (JDK) and the Java Runtime Environment (JRE). JEE extends Java SE by providing additional libraries, APIs, and specifications for developing enterprise-scale applications.
+
 
