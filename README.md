@@ -157,4 +157,36 @@ Welcome to the Java Interview Questions repository! This collection provides a s
 10. **What is a trie?**
     - A trie, also known as a prefix tree, is a tree-based data structure used for efficient retrieval of keys in a large set of strings. It allows quick prefix-based searches and is commonly used for applications involving word search, autocomplete, and spell checking.
 
+# Algorithms
+
+1. **What is a sorting algorithm?**
+   - A sorting algorithm is an algorithm that arranges elements in a specific order, such as ascending or descending. Common sorting algorithms include bubble sort, selection sort, insertion sort, merge sort, quicksort, and heapsort.
+
+2. **What is a searching algorithm?**
+   - A searching algorithm is an algorithm that looks for a specific element within a collection of elements. Common searching algorithms include linear search, binary search, and hash-based search algorithms.
+
+3. **What is the time complexity of an algorithm?**
+   - The time complexity of an algorithm measures the amount of time it takes to run as a function of the input size. It provides an estimation of the running time required by an algorithm and is usually expressed using Big O notation.
+
+4. **What is the space complexity of an algorithm?**
+   - The space complexity of an algorithm measures the amount of memory space it requires as a function of the input size. It provides an estimation of the memory consumed by an algorithm and is also expressed using Big O notation.
+
+5. **What is a recursive algorithm?**
+   - A recursive algorithm is an algorithm that calls itself to solve a smaller subproblem of the original problem. It involves breaking down a problem into smaller instances of the same problem until a base case is reached. Recursion is often used to solve problems that can be naturally divided into smaller, similar subproblems.
+
+6. **What is a dynamic programming algorithm?**
+   - Dynamic programming is a technique used to solve complex problems by breaking them down into simpler overlapping subproblems. It involves solving each subproblem only once and storing the results in a table to avoid redundant computation. Dynamic programming is commonly used to solve optimization problems.
+
+7. **What is a greedy algorithm?**
+   - A greedy algorithm is an algorithmic paradigm that follows the problem-solving heuristic of making the locally optimal choice at each stage with the hope of finding a global optimum. Greedy algorithms often provide fast and efficient solutions but may not always guarantee the globally optimal solution.
+
+8. **What is a backtracking algorithm?**
+   - A backtracking algorithm is a trial-and-error-based algorithm that systematically explores the search space to find solutions. It incrementally builds a solution and abandons or backtracks whenever it determines that the current solution cannot be extended to a valid solution.
+
+9. **What is a graph traversal algorithm?**
+   - A graph traversal algorithm is used to visit or explore all the nodes in a graph. Common graph traversal algorithms include depth-first search (DFS) and breadth-first search (BFS). These algorithms help in traversing or searching for specific nodes or paths within a graph.
+
+10. **What is the difference between time complexity and space complexity?**
+    - Time complexity measures the amount of time an algorithm takes to run, while space complexity measures the amount of memory space an algorithm requires. Both time complexity and space complexity are important factors in analyzing the efficiency and performance of algorithms.
+
 
