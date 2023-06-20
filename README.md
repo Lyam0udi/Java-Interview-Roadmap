@@ -93,5 +93,37 @@ Welcome to the Java Interview Questions repository! This collection provides a s
 10. **What is the difference between a class and an object in Java?**
     - A class in Java is a blueprint or a template that defines the structure and behavior of objects. It describes the state (fields) and behavior (methods) that objects of that class can have. An object, on the other hand, is an instance of a class. It represents a specific occurrence or entity based on the defined class.
 
+# Java Core Concepts
+
+1. **What is the difference between the `==` operator and the `equals()` method in Java?**
+   - The `==` operator compares the references of objects or primitive values for equality. In contrast, the `equals()` method is used to compare the contents of objects for equality. The `equals()` method can be overridden by classes to provide custom comparison logic.
+
+2. **Explain the concept of method overloading in Java.**
+   - Method overloading occurs when a class has multiple methods with the same name but different parameters. The methods are distinguished based on their parameter types and/or the number of parameters. It allows for the creation of methods with the same name but different functionalities.
+
+3. **What are the eight primitive data types in Java?**
+   - The eight primitive data types in Java are `byte`, `short`, `int`, `long`, `float`, `double`, `char`, and `boolean`. They represent basic types of data, such as numbers, characters, and boolean values.
+
+4. **Explain the `final` keyword in Java.**
+   - The `final` keyword can be applied to classes, methods, and variables. When applied to a class, it indicates that the class cannot be subclassed. When applied to a method, it prevents the method from being overridden in subclasses. When applied to a variable, it makes the variable constant, and its value cannot be modified once assigned.
+
+5. **What is the purpose of the `static` keyword in Java?**
+   - The `static` keyword is used to define class-level members (methods and variables) that can be accessed without creating an instance of the class. Static methods can be called using the class name, while static variables are shared among all instances of the class.
+
+6. **Explain the concept of exception handling in Java.**
+   - Exception handling is a mechanism in Java used to handle runtime errors or exceptional conditions that may occur during program execution. It involves the use of try-catch blocks to catch and handle exceptions gracefully, preventing the program from terminating abnormally.
+
+7. **What is the difference between `String`, `StringBuilder`, and `StringBuffer` in Java?**
+   - `String` is an immutable class that represents a sequence of characters. `StringBuilder` and `StringBuffer` are mutable classes used for string manipulation. `StringBuilder` is not thread-safe and offers better performance, while `StringBuffer` is thread-safe but relatively slower.
+
+8. **Explain the concept of polymorphism in Java.**
+   - Polymorphism allows an object to take different forms or behave differently based on the context. In Java, polymorphism is achieved through method overriding and method overloading. It enables code flexibility, extensibility, and abstraction.
+
+9. **What is the Java Memory Model?**
+   - The Java Memory Model defines how the Java Virtual Machine (JVM) works with the computer's memory to execute Java programs. It specifies the rules and guarantees regarding the visibility and ordering of memory operations performed by different threads.
+
+10. **Explain the concept of garbage collection in Java.**
+    - Garbage collection is the automatic process in Java that manages the memory by reclaiming unused objects. It identifies objects that are no longer referenced by the program and frees the memory occupied by those objects, making it available for future allocations.
+
 
 
