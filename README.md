@@ -42,4 +42,56 @@ Welcome to the Java Interview Questions repository! This collection provides a s
 10. **What is autoboxing and unboxing in Java?**
     - Autoboxing is the automatic conversion of primitive types to their corresponding wrapper classes (e.g., `int` to `Integer`) when needed. Unboxing is the opposite process of converting wrapper class objects back to primitive types. Java automatically performs these conversions behind the scenes.
 
+# Object-Oriented Programming
+
+1. **What are the four principles of object-oriented programming?**
+   - The four principles are encapsulation, inheritance, polymorphism, and abstraction. These principles promote code reusability, maintainability, and flexibility in object-oriented systems.
+
+2. **Explain the concept of inheritance in Java.**
+   - Inheritance is a mechanism in Java that allows a class to inherit properties and behaviors from another class. It promotes code reuse by enabling the subclass to access the members (methods and fields) of the superclass. It supports the "is-a" relationship between classes.
+
+3. **What is method overriding in Java? Provide an example.**
+   - Method overriding occurs when a subclass provides its implementation for a method that is already defined in its superclass. The method in the subclass must have the same name, return type, and parameters as the method in the superclass. Here's an example:
+
+    ```java
+    class Animal {
+        public void makeSound() {
+            System.out.println("The animal makes a sound.");
+        }
+    }
+
+    class Dog extends Animal {
+        @Override
+        public void makeSound() {
+            System.out.println("The dog barks.");
+        }
+    }
+
+    // Usage:
+    Animal animal = new Dog();
+    animal.makeSound(); // Output: "The dog barks."
+    ```
+
+4. **Explain the concept of encapsulation in Java.**
+   - Encapsulation is the process of hiding the internal details and implementation of a class and providing a public interface for interaction. It protects the data and prevents direct access to it from outside the class. Access to the data is controlled through getter and setter methods, allowing the class to maintain its integrity.
+
+5. **What is the difference between composition and inheritance?**
+   - Composition is a relationship between classes where one class contains an instance of another class as a member variable. It represents a "has-a" relationship. In contrast, inheritance is a relationship between classes where one class inherits properties and behaviors from another class. It represents an "is-a" relationship. Composition is typically more flexible and favors code reusability.
+
+6. **What is the difference between method overloading and method overriding?**
+   - Method overloading occurs when a class has multiple methods with the same name but different parameters. The methods are distinguished based on their parameter types and/or the number of parameters. Method overriding occurs when a subclass provides its implementation for a method that is already defined in its superclass. The methods must have the same name, return type, and parameters.
+
+7. **What is the concept of polymorphism in Java?**
+   - Polymorphism allows an object to take different forms or behave differently based on the context. In Java, polymorphism is achieved through method overriding and method overloading. It enables code flexibility, extensibility, and abstraction.
+
+8. **What is an abstract class in Java?**
+   - An abstract class is a class that cannot be instantiated and is meant to be subclassed. It can contain both abstract and concrete methods. Abstract methods are declared without an implementation and must be implemented by the subclasses. Abstract classes serve as a blueprint for the subclasses to provide common characteristics and behaviors.
+
+9. **What is an interface in Java?**
+   - An interface in Java is a collection of abstract methods that defines a contract for classes to implement. It provides a way to achieve multiple inheritances in Java. Classes implement interfaces by providing implementations for all the methods defined in the interface. Interfaces are used to achieve abstraction and promote loose coupling.
+
+10. **What is the difference between a class and an object in Java?**
+    - A class in Java is a blueprint or a template that defines the structure and behavior of objects. It describes the state (fields) and behavior (methods) that objects of that class can have. An object, on the other hand, is an instance of a class. It represents a specific occurrence or entity based on the defined class.
+
+
 
