@@ -224,4 +224,36 @@ Welcome to the Java Interview Questions repository! This collection provides a s
 10. **What are the differences between JEE and Java Standard Edition (Java SE)?**
     - Java Standard Edition (Java SE) provides the core Java platform, which includes the Java Development Kit (JDK) and the Java Runtime Environment (JRE). JEE extends Java SE by providing additional libraries, APIs, and specifications for developing enterprise-scale applications.
 
+# Spring
+
+1. **What is the Spring Framework?**
+   - The Spring Framework is an open-source application framework for Java that provides comprehensive infrastructure support for developing Java applications. It offers features such as dependency injection, aspect-oriented programming, and support for various modules like Spring MVC, Spring Data, and Spring Security.
+
+2. **What are the core features of the Spring Framework?**
+   - The core features of the Spring Framework include dependency injection (DI), aspect-oriented programming (AOP), support for transaction management, JDBC abstraction, integration with various frameworks and technologies, and modular architecture.
+
+3. **Explain dependency injection (DI) in the context of Spring.**
+   - Dependency injection is a design pattern used in Spring to manage object dependencies. Instead of creating and managing objects manually, Spring allows you to define dependencies in a configuration file or using annotations, and it takes care of injecting the required dependencies at runtime.
+
+4. **What are the different types of dependency injection supported by Spring?**
+   - Spring supports three types of dependency injection: constructor injection, setter injection, and field injection. Constructor injection involves passing dependencies through a constructor, setter injection uses setter methods, and field injection directly injects dependencies into fields.
+
+5. **What is inversion of control (IoC) in the context of the Spring Framework?**
+   - Inversion of Control (IoC) is a principle followed by the Spring Framework, where the control of object creation and managing dependencies is transferred to the Spring container. The container manages the lifecycle of objects and resolves dependencies, allowing developers to focus on writing business logic.
+
+6. **Explain the Spring Bean lifecycle.**
+   - The Spring Bean lifecycle consists of several phases, including bean instantiation, initialization, and destruction. During instantiation, the bean object is created. During initialization, any necessary setup operations are performed. During destruction, any necessary cleanup operations are performed before the bean is removed.
+
+7. **What is Aspect-Oriented Programming (AOP) in Spring?**
+   - Aspect-Oriented Programming (AOP) is a programming paradigm that allows modularization of cross-cutting concerns in an application. In Spring, AOP enables developers to separate cross-cutting concerns from the business logic, improving code modularity and maintainability.
+
+8. **What is the Spring MVC framework?**
+   - Spring MVC is a module within the Spring Framework that provides a robust and flexible framework for building web applications. It follows the Model-View-Controller (MVC) architectural pattern and offers features for request handling, data binding, validation, and more.
+
+9. **How does Spring support database access?**
+   - Spring provides support for database access through the Spring JDBC module and Object-Relational Mapping (ORM) frameworks like Hibernate and MyBatis. It offers features such as simplified JDBC operations, declarative transaction management, and integration with ORM frameworks for seamless database access.
+
+10. **Explain the role of Spring Security in securing applications.**
+    - Spring Security is a module within the Spring Framework that provides comprehensive security features for Java applications. It offers authentication, authorization, and other security mechanisms to protect web applications, RESTful services, and other components.
+
 
