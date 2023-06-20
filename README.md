@@ -256,4 +256,37 @@ Welcome to the Java Interview Questions repository! This collection provides a s
 10. **Explain the role of Spring Security in securing applications.**
     - Spring Security is a module within the Spring Framework that provides comprehensive security features for Java applications. It offers authentication, authorization, and other security mechanisms to protect web applications, RESTful services, and other components.
 
+# Spring Boot
+
+1. **What is Spring Boot?**
+   - Spring Boot is an open-source framework built on top of the Spring Framework that simplifies the development of Java applications. It provides opinionated defaults and auto-configuration, allowing developers to quickly set up and run production-ready Spring applications with minimal configuration.
+
+2. **How does Spring Boot simplify the development process?**
+   - Spring Boot simplifies development by providing auto-configuration, which automatically configures the application based on dependencies and sensible defaults. It also includes an embedded server, production-ready features, and a streamlined development experience, reducing boilerplate code and configuration.
+
+3. **Explain the concept of auto-configuration in Spring Boot.**
+   - Auto-configuration in Spring Boot automatically configures beans and components based on the classpath and defined dependencies. It leverages the Starter POMs and conditionally configures components, reducing the need for explicit configuration.
+
+4. **How does Spring Boot handle application properties and configuration?**
+   - Spring Boot uses the `application.properties` or `application.yml` file to manage application properties and configuration. It provides a wide range of configuration options, including database connections, logging, security settings, and more.
+
+5. **What are Spring Boot Starters?**
+   - Spring Boot Starters are a set of dependency descriptors that simplify dependency management in Spring Boot applications. Each starter includes a curated set of dependencies for a specific purpose, such as web development, data access, or testing.
+
+6. **Explain the role of Spring Boot Actuator.**
+   - Spring Boot Actuator is a module that provides production-ready features for monitoring and managing Spring Boot applications. It includes endpoints for health checks, metrics, logging, and more, allowing administrators to monitor and manage the application in real-time.
+
+7. **How does Spring Boot support RESTful web services development?**
+   - Spring Boot provides a comprehensive set of features for developing RESTful web services. It includes auto-configuration for Spring MVC, support for content negotiation, request mapping, error handling, and easy integration with technologies like JSON serialization.
+
+8. **Discuss the different ways to package and deploy a Spring Boot application.**
+   - Spring Boot allows packaging and deploying applications in various formats, including traditional WAR files, executable JAR files, and even native executables using GraalVM. It provides embedded servers that simplify deployment and make the application self-contained.
+
+9. **What is Spring Boot's support for microservices architecture?**
+   - Spring Boot is well-suited for building microservices-based architectures. It provides features like service discovery and registration, load balancing, circuit breakers, and distributed tracing through integration with Spring Cloud projects, making it easier to develop and manage microservices.
+
+10. **Discuss the integration of Spring Boot with other Spring projects.**
+    - Spring Boot integrates seamlessly with other Spring projects like Spring Data, Spring Security, and Spring Cloud. It provides auto-configuration and starter dependencies for these projects, simplifying the integration process and reducing the effort required to set up and configure these components.
+
+
 
