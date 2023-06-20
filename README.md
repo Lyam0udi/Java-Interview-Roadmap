@@ -9,6 +9,9 @@ Welcome to the Java Interview Questions repository! This collection provides a s
 - [Java Core Concepts](#java-core-concepts)
 - [Data Structures](#data-structures)
 - [Algorithms](#algorithms)
+- [JEE](#jee)
+- [Spring](#spring)
+- [SpringBoot](#springboot)
 
 # General Questions
 
