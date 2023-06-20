@@ -125,5 +125,36 @@ Welcome to the Java Interview Questions repository! This collection provides a s
 10. **Explain the concept of garbage collection in Java.**
     - Garbage collection is the automatic process in Java that manages the memory by reclaiming unused objects. It identifies objects that are no longer referenced by the program and frees the memory occupied by those objects, making it available for future allocations.
 
+# Data Structures
+
+1. **What is an array in Java?**
+   - An array is a fixed-size, ordered collection of elements of the same data type. It provides random access to its elements using an index. Arrays in Java are zero-indexed, meaning the first element is accessed with index 0.
+
+2. **What is a linked list?**
+   - A linked list is a data structure consisting of a sequence of nodes, where each node contains data and a reference (or link) to the next node in the list. Unlike arrays, linked lists can dynamically grow or shrink in size at runtime.
+
+3. **What is a stack?**
+   - A stack is a data structure that follows the Last-In-First-Out (LIFO) principle. Elements can be added or removed only from the top of the stack. Common operations on a stack include push (adding an element to the top) and pop (removing the top element).
+
+4. **What is a queue?**
+   - A queue is a data structure that follows the First-In-First-Out (FIFO) principle. Elements are added to the back of the queue and removed from the front. Common operations on a queue include enqueue (adding an element to the back) and dequeue (removing the front element).
+
+5. **What is a binary tree?**
+   - A binary tree is a hierarchical data structure in which each node has at most two children, referred to as the left child and the right child. Binary trees are used for efficient searching, sorting, and hierarchical representation of data.
+
+6. **What is a hash table?**
+   - A hash table (or hash map) is a data structure that uses a hash function to map keys to values. It provides efficient insertion, deletion, and retrieval of data. In Java, the `HashMap` class is commonly used to implement a hash table.
+
+7. **What is a heap?**
+   - A heap is a complete binary tree that satisfies the heap property. In a min-heap, the parent nodes have a value smaller than or equal to their child nodes, while in a max-heap, the parent nodes have a value greater than or equal to their child nodes. Heaps are often used for efficient priority queue implementations.
+
+8. **What is a graph?**
+   - A graph is a non-linear data structure consisting of a set of vertices (nodes) connected by edges. Graphs can be used to represent relationships between entities. Common types of graphs include directed graphs, undirected graphs, weighted graphs, and bipartite graphs.
+
+9. **What is a linked list?**
+   - A linked list is a linear data structure consisting of a sequence of nodes, where each node contains data and a reference (or link) to the next node in the list. Unlike arrays, linked lists can dynamically grow or shrink in size at runtime.
+
+10. **What is a trie?**
+    - A trie, also known as a prefix tree, is a tree-based data structure used for efficient retrieval of keys in a large set of strings. It allows quick prefix-based searches and is commonly used for applications involving word search, autocomplete, and spell checking.
 
 
