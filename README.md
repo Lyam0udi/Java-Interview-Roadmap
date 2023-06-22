@@ -12,7 +12,8 @@ Welcome to the Java Interview Questions repository! This collection provides a s
 - [JEE](#jee)
 - [Spring](#spring)
 - [Spring Boot](#spring-boot)
-
+- [React](#react)
+- 
 # General Questions
 
 1. **What is Java Virtual Machine (JVM)?**
@@ -287,6 +288,8 @@ Welcome to the Java Interview Questions repository! This collection provides a s
 
 10. **Discuss the integration of Spring Boot with other Spring projects.**
     - Spring Boot integrates seamlessly with other Spring projects like Spring Data, Spring Security, and Spring Cloud. It provides auto-configuration and starter dependencies for these projects, simplifying the integration process and reducing the effort required to set up and configure these components.
+
+
 
 
 
