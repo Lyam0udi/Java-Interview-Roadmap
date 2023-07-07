@@ -12,8 +12,7 @@ Welcome to the Java Interview Questions repository! This collection provides a s
 - [JEE](#jee)
 - [Spring](#spring)
 - [Spring Boot](#spring-boot)
-- [React](#react)
-- 
+
 # General Questions
 
 1. **What is Java Virtual Machine (JVM)?**
